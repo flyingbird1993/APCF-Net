@@ -10,9 +10,9 @@
   ],
   "source": "Dataset location and contents confirmed by author on 2026-09-18",
   "assets": {
-    "dataset_distribution.png": "Paper Figure 1, original high-resolution author figure",
+    "fig_dataset_overview.png": "Updated high-resolution author figure for FTDD class distribution and sample counts",
     "framework.png": "Paper Figure 2, original high-resolution author figure",
-    "experimental_results.png": "Redrawn from paper Table 2; numerical values preserved"
+    "fig_f1_17class_vertical.png": "Updated high-resolution author figure for per-class F1 scores"
   },
   "table_2": [
     {

@@ -18,7 +18,7 @@ FTDD（Fine-grained Tobacco Disease Dataset）包含 **4,669 张田间图像、1
 
 ### 数据分布
 
-![FTDD 17类烟草病害的数据分布与样本数量](assets/dataset_distribution.png)
+![FTDD 17类烟草病害的数据分布与样本数量](assets/fig_dataset_overview.png)
 
 *图1：FTDD 数据集的病害类别分布与各类别样本数量。*
 
@@ -36,8 +36,6 @@ FTDD（Fine-grained Tobacco Disease Dataset）包含 **4,669 张田间图像、1
 
 以下为论文表2中的实验结果，实验性能已完成验证。所有指标单位为%。
 
-![FTDD上的方法对比实验结果](assets/experimental_results.png)
-
 | 方法 | 精确率 | 召回率 | F1分数 | 准确率 |
 |---|---:|---:|---:|---:|
 | MobileViT_small | 85.77 | 89.87 | 87.09 | 90.99 |
@@ -49,6 +47,10 @@ FTDD（Fine-grained Tobacco Disease Dataset）包含 **4,669 张田间图像、1
 | PMVT | 53.94 | 52.15 | 52.02 | 62.45 |
 | PlantXViT | 78.65 | 76.99 | 77.30 | 81.90 |
 | **APCF-Net** | **93.38** | **92.24** | **92.80** | **94.06** |
+
+![FTDD 17类烟草病害逐类别F1分数](assets/fig_f1_17class_vertical.png)
+
+*图3：FTDD 17类烟草病害的逐类别 F1 分数。*
 
 ## 环境安装
 
@@ -171,7 +173,7 @@ python evaluate.py --checkpoint outputs/tobacco/best.pt --csv data/tobacco/test.
 ```text
 APCF-Net/
 ├── README.md
-├── assets/                  # 数据分布图、框架图、实验结果表
+├── assets/                  # 数据分布图、框架图、逐类别F1分数图
 ├── train.py                 # 训练与恢复
 ├── evaluate.py              # 测试集评估
 ├── tobacco.py               # 本地运行检查用的合成样本生成脚本

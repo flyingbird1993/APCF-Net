@@ -20,3 +20,5 @@ checkpoints/
 *.log
 .env
 .env.*
+/fig_dataset_overview.png
+/fig_f1_17class_vertical.png
