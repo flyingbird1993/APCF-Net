@@ -1,0 +1,33 @@
+{
+  "profile": "APCF-Net / FTDD 17-class tobacco disease classification",
+  "model": {
+    "image_size": 224, "patch_size": 16, "hidden_size": 768,
+    "mlp_dim": 3072, "num_heads": 12, "num_layers": 12, "num_classes": 17,
+    "head_layers": [10, 11, 12], "dropout": 0.1, "attention_dropout": 0.0,
+    "use_cam": true, "cam_reduction": 32, "aaps_grid": 4,
+    "rollout_scope": "all", "normalize_mix_weights": false, "distinct_pairs": true
+  },
+  "data": {
+    "root": "data/tobacco/images", "train_csv": "data/tobacco/train.csv",
+    "val_csv": "data/tobacco/val.csv", "test_csv": "data/tobacco/test.csv",
+    "label_base": 0, "resize_size": 256
+  },
+  "training": {
+    "epochs": 60, "batch_size": 64, "lr": 0.0003, "optimizer": "adam",
+    "weight_decay": 0.0, "momentum": 0.9,
+    "scheduler": "step", "step_size": 20, "gamma": 0.1,
+    "aaps_probability": 0.5, "mixed_loss_weight": 1.0,
+    "loss_weights": [0.3333333333333333, 0.3333333333333333, 0.3333333333333333],
+    "fusion_weights": [0.3333333333333333, 0.3333333333333333, 0.3333333333333333],
+    "fusion_mode": "probabilities", "seed": 1, "num_workers": 0,
+    "device": "auto", "cpu_threads": 4, "output_dir": "outputs/tobacco",
+    "pretrained": "weights/ViT-B_16.npz"
+  },
+  "notes": [
+    "Paper specifies step decay but not step_size or gamma; 20 and 0.1 are engineering defaults.",
+    "Paper does not specify seed, weight_decay, CAM reduction, AAPS grid, or exact resize/crop scale.",
+    "256 resize then 224 crop makes random crop effective; this detail is not established by the manuscript.",
+    "Eq.6 and source code use unnormalized attention masses; optional normalization changes the objective.",
+    "Original plus mixed losses with mixed_loss_weight=1 follow the source; combined scaling is not specified in paper."
+  ]
+}

@@ -1,0 +1,4 @@
+# Install the CPU/CUDA build of torch first (README), then this file.
+torch>=2.0.1,<2.7
+numpy>=1.24,<2
+Pillow>=9.1,<12

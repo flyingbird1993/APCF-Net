@@ -1,0 +1,82 @@
+{
+  "dataset": "FTDD",
+  "classes": 17,
+  "paper_image_count": 4669,
+  "download_url": "https://pan.baidu.com/s/1afgBHVSYO7AT8ubXiCT6rw",
+  "extraction_code": "GZYC",
+  "contents": [
+    "all dataset images",
+    "CSV manifests"
+  ],
+  "source": "Dataset location and contents confirmed by author on 2026-09-18",
+  "assets": {
+    "dataset_distribution.png": "Paper Figure 1, original high-resolution author figure",
+    "framework.png": "Paper Figure 2, original high-resolution author figure",
+    "experimental_results.png": "Redrawn from paper Table 2; numerical values preserved"
+  },
+  "table_2": [
+    {
+      "method": "MobileViT_small",
+      "precision": 85.77,
+      "recall": 89.87,
+      "f1": 87.09,
+      "accuracy": 90.99
+    },
+    {
+      "method": "Swin_tiny_224",
+      "precision": 89.93,
+      "recall": 89.54,
+      "f1": 89.4,
+      "accuracy": 92.35
+    },
+    {
+      "method": "MobileNetV2",
+      "precision": 88.89,
+      "recall": 87.89,
+      "f1": 87.17,
+      "accuracy": 90.41
+    },
+    {
+      "method": "Resnet34",
+      "precision": 83.89,
+      "recall": 89.45,
+      "f1": 85.8,
+      "accuracy": 89.48
+    },
+    {
+      "method": "Potato-DenseNet121ViT",
+      "precision": 83.46,
+      "recall": 84.04,
+      "f1": 83.2,
+      "accuracy": 87.27
+    },
+    {
+      "method": "Potato-MobileNetV3ViT",
+      "precision": 86.43,
+      "recall": 83.84,
+      "f1": 84.68,
+      "accuracy": 86.7
+    },
+    {
+      "method": "PMVT",
+      "precision": 53.94,
+      "recall": 52.15,
+      "f1": 52.02,
+      "accuracy": 62.45
+    },
+    {
+      "method": "PlantXViT",
+      "precision": 78.65,
+      "recall": 76.99,
+      "f1": 77.3,
+      "accuracy": 81.9
+    },
+    {
+      "method": "APCF-Net",
+      "precision": 93.38,
+      "recall": 92.24,
+      "f1": 92.8,
+      "accuracy": 94.06
+    }
+  ]
+}

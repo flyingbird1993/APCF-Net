@@ -1,0 +1,26 @@
+{
+  "profile": "synthetic CPU smoke only; NOT ViT-B/16 or a paper experiment",
+  "model": {
+    "image_size": 32, "patch_size": 8, "hidden_size": 24,
+    "mlp_dim": 48, "num_heads": 3, "num_layers": 12, "num_classes": 3,
+    "head_layers": [10, 11, 12], "dropout": 0.1, "attention_dropout": 0.0,
+    "use_cam": true, "cam_reduction": 32, "aaps_grid": 4,
+    "rollout_scope": "all", "normalize_mix_weights": false, "distinct_pairs": true
+  },
+  "data": {
+    "root": "data/smoke/images", "train_csv": "data/smoke/train.csv",
+    "val_csv": "data/smoke/val.csv", "test_csv": "data/smoke/test.csv",
+    "label_base": 0, "resize_size": 36
+  },
+  "training": {
+    "epochs": 2, "batch_size": 2, "lr": 0.0003, "optimizer": "adam",
+    "weight_decay": 0.0, "momentum": 0.9,
+    "scheduler": "step", "step_size": 1, "gamma": 0.1,
+    "aaps_probability": 1.0, "mixed_loss_weight": 1.0,
+    "loss_weights": [0.3333333333333333, 0.3333333333333333, 0.3333333333333333],
+    "fusion_weights": [0.3333333333333333, 0.3333333333333333, 0.3333333333333333],
+    "fusion_mode": "probabilities", "seed": 1, "num_workers": 0,
+    "device": "cpu", "cpu_threads": 2, "output_dir": "outputs/smoke",
+    "pretrained": null
+  }
+}

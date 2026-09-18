@@ -1,0 +1,57 @@
+{
+  "python": "3.8.0",
+  "checks": [
+    {
+      "entry": "-m",
+      "exit_code": 0
+    },
+    {
+      "entry": "tobacco.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "train.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "train.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "train.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "evaluate.py",
+      "exit_code": 0
+    }
+  ],
+  "full_training": false,
+  "full_model": {
+    "torch": "2.0.1",
+    "cuda_available": false,
+    "device": "cpu",
+    "batch_size": 2,
+    "input_size": 224,
+    "parameter_count": 86523795,
+    "npz_tensors_loaded": 196,
+    "loss": 6.412894248962402,
+    "optimizer": "Adam",
+    "output_shapes": [
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        2,
+        17
+      ]
+    ],
+    "seconds": 104.3
+  },
+  "full_model_note": "Full-model validation from the preceding implementation check; model code unchanged in README revision."
+}

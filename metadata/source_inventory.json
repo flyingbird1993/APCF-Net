@@ -1,0 +1,246 @@
+{
+  "source_directory": "J_fine-grained",
+  "date": "2026-09-18",
+  "files": [
+    {
+      "file": "APC.py",
+      "sha256": "be3208e3a85ac5ac8e4b7429eef94e2657b7bf9a6bdf18ca303c937f9a4504fc",
+      "bytes": 15999,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "baoliu_CTI.py",
+      "sha256": "48304c1d57d2d650b393dfa7bb3109266501bfe841e9af0456eb6c7b4f47e779",
+      "bytes": 13277,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "CA_APC.py",
+      "sha256": "448c142ca087dc890d10c902f5743a5fd5387040345f6512778d9f58d92f0172",
+      "bytes": 16868,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "CA_CTI.py",
+      "sha256": "e1f57bbb076de14d0268553d673520fd6fd34b70128ad0cd6cb473c0dd8a8e1c",
+      "bytes": 15697,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "CA_CTI_APC.py",
+      "sha256": "93cae83228606c1455dd9d4159be2f15eb639e0fa0d6bbb93a9fe0bd5f98bb46",
+      "bytes": 18378,
+      "selected": true,
+      "adapted_into": [
+        "apcf/backbone.py",
+        "apcf/model.py",
+        "apcf/aaps.py",
+        "apcf/pretrained.py"
+      ]
+    },
+    {
+      "file": "CAM.py",
+      "sha256": "163e35641c57118036b70fe02af838ebf5fd66a82db3f0886e2cd4ed6d50d367",
+      "bytes": 13439,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "config.py",
+      "sha256": "55e755afcb97beed2125a2f421a0fba50aecb95e71e7e586c132080b9c82ad6a",
+      "bytes": 4696,
+      "selected": true,
+      "adapted_into": [
+        "configs/paper.json",
+        "apcf/config.py"
+      ]
+    },
+    {
+      "file": "coordatt.py",
+      "sha256": "c40cc881d0a23b64c886274a9d8df7d13f04b6ec4fc935c3b281a82998f9ebfc",
+      "bytes": 1613,
+      "selected": true,
+      "adapted_into": [
+        "apcf/cam.py"
+      ]
+    },
+    {
+      "file": "CTI.py",
+      "sha256": "78aa12d13d5e8c027c10d7e2c2d8d484623949b4989f82461b702a0789ab4e04",
+      "bytes": 14830,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "datasets.py",
+      "sha256": "4d3b68f31c0d10e8bce31c09f779f07e786c46b587a6657d87a59cf57cacd778",
+      "bytes": 3115,
+      "selected": true,
+      "adapted_into": [
+        "apcf/data.py"
+      ]
+    },
+    {
+      "file": "main.py",
+      "sha256": "d810dc652083b61132d78a846ead1e1bae801e774054abb4520d4a6dff6a8130",
+      "bytes": 7723,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "main_APC.py",
+      "sha256": "65bd50d0e87c230af394a848cad2db7dfc23645a090780214691d4e4bcdbcafb",
+      "bytes": 5738,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "main_CA_CTI_APC.py",
+      "sha256": "a7c7eb3b87ca5fde542f26cd9e136e67640336bfe2150240cbc8e235932f49be",
+      "bytes": 7674,
+      "selected": true,
+      "adapted_into": [
+        "train.py",
+        "apcf/engine.py",
+        "apcf/mcff.py"
+      ]
+    },
+    {
+      "file": "main_CA_CTI_APC_relitu.py",
+      "sha256": "b618ff8555b031d93f6553118072d31ff2c53fddb28cd3e8de72e6654ee01a23",
+      "bytes": 12211,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "main_CTI.py",
+      "sha256": "614189adf7493eade3638b99d20c8b392af951aa8f35b219c6ab73c9ee4f9a6b",
+      "bytes": 7055,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "main_yichu_CRF.py",
+      "sha256": "fe2eb1fb4f7b1f6fcdbe94a21e7a69bc3c670e44e0857b5a669c0c7bdd80064a",
+      "bytes": 7463,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "mian_CA_APC.py",
+      "sha256": "340ed08705d4237e601d7add0652c208b2f91606206ab25f4dd9eb7bb20fe18c",
+      "bytes": 5741,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "mian_CA_CTI.py",
+      "sha256": "660ea8e0db801612ce317eebf431d528f762e48afbd7cc88850030eae23913c9",
+      "bytes": 7006,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "Mob-Res CNN.py",
+      "sha256": "61a6ef58b0fdfa8ba8390c35c59ad5ebeaf9bf484a2840e57ced27f1a8e66fcc",
+      "bytes": 30870,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "model.py",
+      "sha256": "645ed6bc69bf56319ea772f617e14f828d9e0eed0e008a110562fcf44a89630f",
+      "bytes": 18225,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "model_yuanshi.py",
+      "sha256": "89cef493e8e38e6bc01a56ca66530d2043632a88be4f5685d1c011845e4b1083",
+      "bytes": 18245,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "my_selfattantion_heatmap.py",
+      "sha256": "e14fdc306407c076485c447dedbe4ce02801179b1e1a6411295ceea71fdcf1d3",
+      "bytes": 18342,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "my_vf_keshihua.py",
+      "sha256": "6c8c5904984b21e007a136cdaa720331bd91c4da1b2ce861937a9214378e5af9",
+      "bytes": 13482,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "new_cam.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "README.md",
+      "sha256": "6e9105a252e3a0073fd6bd6afa79f31ad14dbf3d0ad0ff1593f09a48348a5e06",
+      "bytes": 2413,
+      "selected": true,
+      "adapted_into": [
+        "THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "requirements.txt",
+      "sha256": "464a05bbd7b4ecc48c3cd66509ee009be7c01c6ddd7e618e9bca88e9277b8c00",
+      "bytes": 130,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "train.py",
+      "sha256": "60dd368c6cb6c3f47b9ca96a9be221f7be52e30d904f977d1683b54331ccbc56",
+      "bytes": 5142,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "upload_openl.py",
+      "sha256": "4f0c73206f4b37e199993e3e70cba7109919ad5606bdf86f062c1018e15c429f",
+      "bytes": 207,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "val.py",
+      "sha256": "6161f355b71be358b5201bcf4b83bd60c9352e188dc440b2b1ed5e9efd6f3361",
+      "bytes": 790,
+      "selected": false,
+      "adapted_into": []
+    },
+    {
+      "file": "yichu_CRF.py",
+      "sha256": "2d1e5252cdcfe70e3266117e63ad4d3469315e287083ec9926c0261d82ef776d",
+      "bytes": 17319,
+      "selected": false,
+      "adapted_into": []
+    }
+  ],
+  "paper_total": 4669,
+  "paper_classes": 17,
+  "source_untouched": true,
+  "excluded": [
+    "alternative models and ablations",
+    "heatmap and CAM visualization scripts",
+    "cloud upload scripts",
+    "compiled caches",
+    "weights",
+    "TensorBoard logs",
+    "unrelated CNN baselines"
+  ]
+}
