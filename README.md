@@ -11,7 +11,7 @@ APCF-Net 是面向田间烟草病害细粒度识别的注意力图块互补融�
 FTDD（Fine-grained Tobacco Disease Dataset）包含 **4,669 张田间图像、17类烟草病害**，采用“侵染类型—发病部位—具体病害”三级标注体系。本仓库的分类任务为17类具体病害识别。
 
 | 下载内容 | 地址 |
-|---|---|---|
+|---|---|
 | FTDD：全部图像及配套 CSV 清单 | [百度网盘下载](https://pan.baidu.com/s/1afgBHVSYO7AT8ubXiCT6rw) 
 
 请下载并解压网盘中的正式数据集，使用其中提供的 CSV 清单。
